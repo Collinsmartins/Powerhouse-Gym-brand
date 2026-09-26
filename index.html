@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>POWERHOUSE GYM - Abuja | Built Different</title>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Inter',sans-serif;background:#080808;color:#fff}
+h1,h2{font-family:'Anton',sans-serif;letter-spacing:1px}
+.nav{padding:20px 5%;display:flex;justify-content:space-between;align-items:center;position:fixed;width:100%;background:rgba(8,8,8,0.9);z-index:99;backdrop-filter:blur(10px)}
+.btn{padding:14px 28px;font-weight:700;text-transform:uppercase;display:inline-block}.btn-yellow{background:#E7FF00;color:#000}.btn-outline{border:1px solid #fff;color:#fff}
+.hero{height:100vh;background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2000');background-size:cover;display:flex;align-items:center;padding:0 5%}
+.hero h1{font-size:clamp(50px,9vw,130px);line-height:0.85}.hero h1 span{color:#E7FF00;-webkit-text-stroke:1px #E7FF00;color:transparent}
+.hero h1 span.fill{color:#E7FF00;-webkit-text-stroke:0}
+.stats{padding:30px 5%;display:grid;grid-template-columns:repeat(4,1fr);border-y:1px solid #222;text-align:center}
+.stats b{font-size:32px;color:#E7FF00;display:block}
+.section{padding:80px 5%}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.card{background:#121212;border:1px solid #222;padding:10px}
+.card img{width:100%;height:350px;object-fit:cover}
+.card div{padding:20px}
+.price-box{background:#121212;border:1px solid #222;padding:40px;text-align:center}
+.price-box.popular{background:#E7FF00;color:#000;transform:scale(1.05)}
+.trainer{text-align:center}.trainer img{width:100%;height:400px;object-fit:cover;filter:grayscale(1)}
+.trainer img:hover{filter:grayscale(0)}
+.footer{background:#111;padding:60px 5%;display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px}
+@media(max-width:800px){.stats{grid-template-columns:repeat(2,1fr)}.footer{grid-template-columns:1fr}.hero h1{font-size:60px}}
+</style>
+</head>
+<body>
+
+<div class="nav">
+<div style="font-family:Anton;font-size:24px">POWERHOUSE<span style="color:#E7FF00">.</span></div>
+<a href="#join" class="btn btn-yellow">Join Now</a>
+</div>
+
+<div class="hero">
+<div>
+<p style="letter-spacing:4px;color:#E7FF00;margin-bottom:20px">ABUJA'S NO.1 FITNESS BRAND</p>
+<h1>BUILT <br><span class="fill">DIFFERENT.</span><br><span>TRAIN</span> <br>DIFFERENT.</h1>
+<br><p style="max-width:450px;color:#aaa">We don't just build bodies. We build discipline, confidence and a lifestyle. 24/7 access, world-class trainers, real results.</p>
+<br><br><a href="#join" class="btn btn-yellow">Start Your Transformation →</a> <a href="#classes" class="btn btn-outline" style="margin-left:10px">View Classes</a>
+</div>
+</div>
+
+<div class="stats">
+<div><b>2000+</b><small>MEMBERS</small></div>
+<div><b>12</b><small>EXPERT TRAINERS</small></div>
+<div><b>24/7</b><small>ACCESS</small></div>
+<div><b>5+</b><small>YEARS IN ABUJA</small></div>
+</div>
+
+<div class="section" id="classes">
+<h2 style="font-size:60px">OUR CLASSES</h2>
+<div class="grid3" style="margin-top:30px">
+<div class="card"><img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=800"><div><h3>STRENGTH & POWER</h3><p style="color:#777;margin-top:10px">Build muscle, lose fat. Heavy lifting with expert form correction.</p></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=800"><div><h3>HIIT & CARDIO</h3><p style="color:#777;margin-top:10px">High intensity fat burn. 45 mins that changes your day.</p></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800"><div><h3>BOXING & YOGA</h3><p style="color:#777;margin-top:10px">Mind and body balance. From fight club to zen flow.</p></div></div>
+</div>
+</div>
+
+<div class="section" style="background:#E7FF00;color:#000">
+<h2 style="font-size:50px">MEET THE TRAINERS</h2>
+<div class="grid3" style="margin-top:30px">
+<div class="trainer"><img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=800"><div style="padding:15px"><h3>COACH TUNDE</h3><small>STRENGTH SPECIALIST</small></div></div>
+<div class="trainer"><img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=800"><div style="padding:15px"><h3>COACH AMARA</h3><small>HIIT & NUTRITION</small></div></div>
+<div class="trainer"><img src="https://images.unsplash.com/photo-1598550880863-4e8aa3d0edb4?q=80&w=800"><div style="padding:15px"><h3>COACH JAY</h3><small>BOXING</small></div></div>
+</div>
+</div>
+
+<div class="section" id="join">
+<h2 style="font-size:60px">CHOOSE YOUR PLAN</h2>
+<div class="grid3" style="margin-top:30px">
+<div class="price-box"><h3>DAY PASS</h3><h2 style="font-size:50px;margin:20px 0">₦5k</h2><p style="color:#777">Access to all equipment<br>1 Group Class<br>Locker</p><br><a href="#" class="btn btn-outline">Get Pass</a></div>
+<div class="price-box popular"><small style="background:#000;color:#E7FF00;padding:5px 10px">MOST POPULAR</small><h3 style="margin-top:20px">MONTHLY</h3><h2 style="font-size:50px;margin:20px 0">₦35k</h2><p>24/7 Gym Access<br>Unlimited Classes<br>Personal Trainer 2x<br>Diet Plan</p><br><a href="#" class="btn" style="background:#000;color:#E7FF00;width:100%">Join Now</a></div>
+<div class="price-box"><h3>YEARLY ELITE</h3><h2 style="font-size:50px;margin:20px 0">₦350k</h2><p>All Monthly Benefits<br>Free Merch Kit<br>Bring A Friend Free<br>Private Locker</p><br><a href="#" class="btn btn-outline">Go Elite</a></div>
+</div>
+</div>
+
+<div class="footer">
+<div><h2>POWERHOUSE.</h2><p style="color:#666;margin-top:15px;max-width:300px">Abuja's hardest working gym. We are not a gym, we are a culture. Located at Central Business District, Abuja.</p></div>
+<div><b>OPEN</b><br><br><p style="color:#666">Mon - Sun: 24 Hours<br>Abuja, FCT<br>0700 POWERHOUSE</p></div>
+<div><b>FOLLOW</b><br><br><p style="color:#666">Instagram<br>TikTok<br>WhatsApp Group</p></div>
+</div>
+<div style="text-align:center;padding:20px;color:#333;font-size:12px">© 2026 POWERHOUSE GYM | Branding by Collins Martins — Business Brand Designer</div>
+
+</body>
+</html>
